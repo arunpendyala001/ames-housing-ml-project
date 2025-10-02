@@ -114,6 +114,7 @@ Gradient Boosting builds trees sequentially, with each new tree correcting the e
 ---
 
 **Summary**
+
 By testing a progression of models — from simple (Linear, Ridge, Lasso) to more advanced ensemble methods (Random Forest, Gradient Boosting) — we demonstrated that boosting-based methods provide the best balance of accuracy and interpretability for predicting house prices in the Ames dataset.
 
 ---
@@ -153,7 +154,6 @@ Although useful for feature selection, Lasso did not provide significant perform
 The Random Forest model substantially improved performance, achieving an R² of **0.910**, RMSE of **26,898**, and MAE of **15,715**.  
 By averaging predictions across many trees, it captured nonlinear effects well. However, it still exhibited some overfitting and less interpretability compared to linear models.
 
-![Random Forest Predicted vs Actual](images/rf_predicted_vs_actual.png)  
 ![Random Forest Residuals](images/rf_residuals.png)
 
 ---
@@ -164,7 +164,7 @@ It consistently outperformed the other models, with residuals tightly centered a
 
 ![Gradient Boosting Predicted vs Actual](images/gb_predicted_vs_actual.png)  
 ![Gradient Boosting Residuals](images/gb_residuals.png)  
-![Gradient Boosting Feature Importance](images/gb_feature_importance.png)
+![Gradient Boosting Feature Importance](images/gb_feature_importances.png)
 
 ---
 
@@ -175,7 +175,8 @@ A detailed interpretation and evaluation of the Gradient Boosting model can be f
 ### Outline of Project
 
 - [Link to Dataset](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset)
-- [Notebook: Housing Price Prediction](./notebooks/advanced_models.ipynb)
+- [Exploratory Analysis](./notebooks/exploratory_analysis.ipynb)
+- [Advanced Models](./notebooks/advanced_models.ipynb)
 - [Evaluation Notebook](./notebooks/evaluation.ipynb)
 
 ---
