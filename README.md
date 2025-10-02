@@ -115,7 +115,7 @@ Gradient Boosting builds trees sequentially, with each new tree correcting the e
 
 **Summary**
 
-By testing a progression of models — from simple (Linear, Ridge, Lasso) to more advanced ensemble methods (Random Forest, Gradient Boosting) — we demonstrated that boosting-based methods provide the best balance of accuracy and interpretability for predicting house prices in the Ames dataset.
+By testing a progression of models from simple (Linear, Ridge, Lasso) to more advanced ensemble methods (Random Forest, Gradient Boosting) we demonstrated that boosting based methods provide the best balance of accuracy and interpretability for predicting house prices in the Ames dataset.
 
 ---
 
