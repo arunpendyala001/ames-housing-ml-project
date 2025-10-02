@@ -175,9 +175,9 @@ A detailed interpretation and evaluation of the Gradient Boosting model can be f
 ### Outline of Project
 
 - [Link to Dataset](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset)
-- [Exploratory Analysis](./notebooks/exploratory_analysis.ipynb)
-- [Advanced Models](./notebooks/advanced_models.ipynb)
-- [Evaluation Notebook](./notebooks/evaluation.ipynb)
+- [Link to Exploratory Analysis](./notebooks/exploratory_analysis.ipynb)
+- [Link to Advanced Models](./notebooks/advanced_models.ipynb)
+- [Link to Evaluation Notebook](./notebooks/evaluation.ipynb)
 
 ---
 
