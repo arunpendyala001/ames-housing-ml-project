@@ -168,7 +168,7 @@ It consistently outperformed the other models, with residuals tightly centered a
 
 ---
 
-A detailed interpretation and evaluation of the Gradient Boosting model can be found in the **CapstoneEvaluation** notebook, where local feature importance (SHAP) and individual predictions are explored.
+A detailed interpretation and evaluation of the Gradient Boosting model can be found in the **Evaluation** notebook, where local feature importance (SHAP) and individual predictions are explored.
 
 ---
 
